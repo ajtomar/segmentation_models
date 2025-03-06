@@ -193,7 +193,7 @@ def eval_psnr(loader, model, data_norm=None, eval_type=None, eval_bsize=None,
         gt_binary = gt_binary.squeeze()
 
         # Save the numpy array as PNG using cv2
-        folder = '/home/scai/mtech/aib232071/scratch/project/SAM-Adapter-PyTorch/test_output_ext_new'
+        folder = 'output'
         os.makedirs(folder, exist_ok=True)
 
         # images_path = os.path.join(folder, 'images')
@@ -333,7 +333,7 @@ if __name__ == '__main__':
     parser.add_argument('--model')
     parser.add_argument('--prompt', default='none')
     args = parser.parse_args()
-    image_names_json='/home/scai/mtech/aib232071/scratch/project/test_data/ext_test_gbc_file_names.json'
+    image_names_json='path_to_json_file'   # json file containing name for all the images
     with open(image_names_json, 'r') as f:
         image_names = json.load(f)
 

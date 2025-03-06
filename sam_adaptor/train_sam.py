@@ -455,7 +455,7 @@ def save(config, model, save_path, name):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--config', default="/home/scai/mtech/aib232071/scratch/project/SAM-Adapter-PyTorch/configs/cod-sam-vit-b.yaml")
+    parser.add_argument('--config', default="./configs/cod-sam-vit-b.yaml")
     parser.add_argument('--name', default=None)
     parser.add_argument('--tag', default=None)
     parser.add_argument("--local_rank", type=int, default=-1, help="")
