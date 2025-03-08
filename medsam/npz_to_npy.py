@@ -12,9 +12,9 @@ import multiprocessing as mp
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-npz_dir", type=str, default="/home/scai/mtech/aib232071/scratch/project/MedSAM/lymph_node/data/fold0/npz/MedSAM_train/CT_Abd",
+parser.add_argument("-npz_dir", type=str, default="path to npz dir",
                     help="Path to the directory containing preprocessed .npz data, [default: data/npz/MedSAM_train/CT_Abd]")
-parser.add_argument("-npy_dir", type=str, default="/home/scai/mtech/aib232071/scratch/project/MedSAM/lymph_node/data/fold0/npy",
+parser.add_argument("-npy_dir", type=str, default="path to npy dir",
                     help="Path to the directory where the .npy files for training will be saved, [default: ./data/npy]")
 parser.add_argument("-num_workers", type=int, default=4,
                     help="Number of workers to convert npz to npy in parallel, [default: 4]")
