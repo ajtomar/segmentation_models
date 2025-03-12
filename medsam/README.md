@@ -168,7 +168,7 @@ To run inference on the 3D CT FLARE22 dataset, run:
 
 ### Pre-trained model for inference
 
-- Download the pre-trained model for MedSAM from [here](https://drive.google.com/file/d/1_Q9syI7PNg4guSV5xCPlakXfiYrd0643/view?usp=sharing)
+- Download the pre-trained model for GBC from [here](https://drive.google.com/file/d/1_Q9syI7PNg4guSV5xCPlakXfiYrd0643/view?usp=sharing)
 
 
 ## Frequently Asked Questions (FAQ)
