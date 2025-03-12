@@ -211,10 +211,6 @@ python validation.py --seed 2023\
 - save_name: filename to save evaluation results 
 - (optional) skip_existing_pred: skip and not predict if output file is found existing
 
-
-### Pre-trained model
-Download the pre-trained model for GBC from [here](https://drive.google.com/file/d/13iuYol2y7F8RYZEXhm8j8QUKIR_XlgUE/view?usp=sharing)
-
 **Sliding-window Inference (experimental)**: To extend the application scenario of SAM-Med3D and support more choices for full-volume inference. We provide the sliding-window mode here within `inference.py`. 
 ```
 python inference.py --seed 2024\
@@ -232,6 +228,11 @@ python inference.py --seed 2024\
 For validation of SAM and SAM-Med2D on 3D volumetric data, you can refer to `scripts/val_sam.sh` and `scripts/val_med2d.sh` for details.
 
 Hint: We also provide a simple script `sum_result.py` to help summarize the results from files like `./results/sam_med3d.py`. 
+
+
+### Pre-trained model
+Download the pre-trained model for GBC from [here](https://drive.google.com/file/d/13iuYol2y7F8RYZEXhm8j8QUKIR_XlgUE/view?usp=sharing)
+
 
 ## 🗼 Method
 <div align="center">
